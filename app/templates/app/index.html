@@ -1,0 +1,31 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Wildlife Watcher</h1>
+    <p class="lead">WildlifeWatcher is an online video animal detection analyser. It will log and display images of wildlife as well let you teach it what different animal types look like. It will then organize and count them for you.</p>
+    <p><a href="https://www.djangoproject.com/" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Upload a file</h2>
+        <p>
+            Upload a file for analysis
+        </p>
+        <p><a class="btn btn-default" href="https://djangobook.com/django-tutorials/">Upload File &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Browse past analyses</h2>
+        <p>Show database here</p>
+        <p><a class="btn btn-default" href="https://pypi.org/">Databases &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>select a camera</h2>
+        <p>select a camera on your network to add</p>
+        <p><a class="btn btn-default" href="http://azure.microsoft.com">Cameras &raquo;</a></p>
+    </div>
+</div>
+
+{% endblock %}
